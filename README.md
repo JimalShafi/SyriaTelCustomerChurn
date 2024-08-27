@@ -1,5 +1,5 @@
 # Welcome! In this project, I built a model to predict customer churn!
-![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/Images/Phase%203%20Project.png?raw=true)
+![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Calls%20at%20different%20types%20of%20Day.png?raw=true)
 # Project Title
 
 # Navigation
@@ -154,10 +154,5 @@ You can install these dependencies using the following command:
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 
-## Author
-- [AKOKO JIM ALEX]
 
-## License
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
