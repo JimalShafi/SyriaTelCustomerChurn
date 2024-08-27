@@ -1,5 +1,5 @@
 # Welcome! In this project, I built a model to predict customer churn!
-![hello]https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Phase%203%20Project.png?raw=true)
+![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Phase%203%20Project.png?raw=true)
 # Project Title
 
 # Navigation
