@@ -33,11 +33,11 @@ This project used the churn in telecoms dataset, which can be found in the data 
 
 Our current churn rate for the training data set is about 14.5%. When we look at customer service calls, we can see that as the number of customer service calls increases, the *likelihood* of churning increases as well. Specifically, with at least 4 customer service calls, the likelihood of a customer churning increases from about 10% to 50%.
 
-![customer_service](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/Images/Customer service calls and churn.png?raw=true)
+![customer_service](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Customer%20service%20calls%20and%20churn.png?raw=true)
 
 Customer service calls alone cannot guarantee that a customer will churn. In fact, the majority of customers who DID NOT churn made 1-2 customer service calls. However, it is important to note that the majority people who DID churn made 1-4 calls to customer service. Therefore, more than 3 calls to customer service should be a red flag that a customer is more likely to churn.
 
-![customer_service_2](https://github.com/tiaplagata/dsc-phase-3-project/blob/main/Images/Customer service calls and churn.png?raw=true)
+![customer_service_2](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Distribution%20f%20customer%20service%20calls%20and%20churn.png?raw=true)
 
 **Recommendation:** 
 
@@ -50,7 +50,7 @@ Based on these findings, I would recommend revisiting our customer service proto
 
 It is clear that the customers who churned and those that did not churn had almost exactly the same usage across day, eve, night and international calls. The rates for international minutes are the same regardless of whether the customer has an international plan or not (27 cents per minute). It is also interesting to note that the percentage of customers who churned was higher for customers with international plans than for customers without international plans. Because of this similar charge for international calls, it is possible that the customers who had an international plan and churned did not feel that paying for the international plan was worth it.
 
-![international_plan](https://github.com/tiaplagata/dsc-phase-3-project/blob/main/Images/International Plan.png?raw=true)
+![international_plan](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/International%20Plan.png?raw=true)
 
 **Recommendations:**
 
@@ -63,7 +63,7 @@ Based on these findings, I recommend changing the rates for international minute
 
 It is clear that there are certain states with much higher churn. When grouped by state, Texas has a much higher churn than any other state (27%). New Jersey, Maryland and California also have higher churn (over 23%). States with the least churn include Hawaii and Iowa (under .05%). 
 
-![state_choropleth](https://github.com/tiaplagata/dsc-phase-3-project/blob/main/Images/churn by state.png?raw=true)
+![state_choropleth](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/churn%20by%20state.png?raw=true)
 
 There could be a few reasons for this difference in churn in different states. One reason could be the lack of competitors in places like Hawaii and Iowa, which are more remote. States such as California, New Jersey or Texas could have many other big players in the market, which causes our customers to have other options when they feel inclined to leave. Another reason could be the lack of good service in certain areas in states with high churn.
 
@@ -95,7 +95,7 @@ The benefit of a True Positive is keeping that customer on and having them conti
 
 The **benefit of a True Negative = 0** since they were not going to churn and we predicted that, so we did not offer any discounts.
 
-![cb_analysis](https://github.com/tiaplagata/dsc-phase-3-project/blob/main/Images/Validation.png?raw=true)
+![cb_analysis](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Validation.png?raw=true)
 
 Based on this cost benefit analysis, our expected value from this strategy is 52 cents per customer per month. That may not seem like much, but for millions of customers it would add up. The good news here is that with this model predicting churn, we are not LOSING money! We can see the breakdown of each cost and benefit multiplied by the number of TP, TN, FP, FNs on the confusion matrix above. 
 
@@ -104,7 +104,7 @@ Based on this cost benefit analysis, our expected value from this strategy is 52
 
 The final model's feature importances are graphed below. 
 
-![feat_importances](https://github.com/tiaplagata/dsc-phase-3-project/blob/main/Images/feature Importances.png?raw=true)
+![feat_importances](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Feature%20Importance.png?raw=true)
 
 
 ## Model Fit & Score
