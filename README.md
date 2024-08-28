@@ -1,5 +1,5 @@
 # Welcome! In this project, I built a model to predict customer churn!
-![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Phase%203%20Project.png?raw=true)
+![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/INTRODUCTION.png?raw=true)
 # Project Title
 
 # Navigation
@@ -95,7 +95,7 @@ The benefit of a True Positive is keeping that customer on and having them conti
 
 The **benefit of a True Negative = 0** since they were not going to churn and we predicted that, so we did not offer any discounts.
 
-![cb_analysis](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Validation.png?raw=true)
+![cb_analysis](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/ValidationMAIN.png?raw=true)
 
 Based on this cost benefit analysis, our expected value from this strategy is 52 cents per customer per month. That may not seem like much, but for millions of customers it would add up. The good news here is that with this model predicting churn, we are not LOSING money! We can see the breakdown of each cost and benefit multiplied by the number of TP, TN, FP, FNs on the confusion matrix above. 
 
@@ -104,7 +104,7 @@ Based on this cost benefit analysis, our expected value from this strategy is 52
 
 The final model's feature importances are graphed below. 
 
-![feat_importances](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/Feature%20Importance.png?raw=true)
+![feat_importances](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/FeatureImportanceMAIN.pngraw=true)
 
 
 ## Model Fit & Score
