@@ -1,6 +1,29 @@
-# Welcome! In this project, I built a model to predict customer churn!
+# Predicting Customer Churn for SyriaTel Communications: A Data-Driven Approach to Retention Strategy
 ![hello](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/INTRODUCTION.png?raw=true)
 # Project Title
+
+# Table of Contents
+* [Project Overview](#Project-Overview)
+* [Problem Statement](#Problem-Statement)
+* [Objective](#Objective)
+* [Dataset Description](#Dataset-Description)
+* [EDA](#EDA)
+* [Is Calling Customer Service a Sign of Potential Churn?](#Is-Calling-Customer-Service-a-Sign-of-Potential-Churn?)
+* [What Does Plan Usage Tell Us About Churn?](#What-Does-Plan-Usage-Tell-Us-About-Churn?)
+* [Are Customers in Certain Areas More Likely to Churn?](#Are-Customers-in-Certain-Areas-More-Likely-to-Churn?)
+* [EDA Conclusion](#EDA-Conclusion)
+* [Model Analysis](#Model-Analysis)
+* [Metric-Used](#Metric-Used)
+* [Cost Benefit Analysis](#Cost-Benefit-Analysis)
+* [Feature Importances](#Feature-Importances)
+* [Model Fit & Score](#Model-Fit-&-Score)
+* [Model-Conclusion](#Model-Conclusion)
+* [Future Work](#Future-Work)
+* [How-to-Run](#How-to-Run)
+* [Dependencies](#Dependencies)
+* [Credits & References](#Credits-&-References)
+
+
 
 # Navigation
 * [Project Overview](#Project-Overview)
