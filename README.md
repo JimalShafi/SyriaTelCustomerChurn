@@ -104,7 +104,7 @@ Based on this cost benefit analysis, our expected value from this strategy is 52
 
 The final model's feature importances are graphed below. 
 
-![feat_importances](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/FeatureImportanceMAIN.pngraw=true)
+![feat_importances](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/IMAGES/FeatureImportanceMAIN.png?raw=true)
 
 
 ## Model Fit & Score
