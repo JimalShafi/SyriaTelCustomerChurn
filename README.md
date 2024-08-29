@@ -135,8 +135,8 @@ The final model's feature importances are graphed below.
 
 ## Model Fit & Score
 
-Validation Recall Score: 0.83
-Training Recall Score: 0.88
+Validation Recall Score: 0.8
+Training Recall Score: 0.84
 The close recall scores indicate that the model is slightly overfitted but still generalizes well. The model's high recall ensures it effectively identifies customers at risk of churning.
 
 
