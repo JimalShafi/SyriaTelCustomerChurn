@@ -7,7 +7,7 @@
 * [Problem Statement](#Problem-Statement)
 * [Objective](#Objective)
 * [Dataset Description](#Dataset-Description)
-* [EDA](#EDA)
+* [Exploratory Data Analysis (EDA)](#Exploratory-Data-Analysis-(EDA))
 * [Is Calling Customer Service a Sign of Potential Churn?](#Is-Calling-Customer-Service-a-Sign-of-Potential-Churn?)
 * [What Does Plan Usage Tell Us About Churn?](#What-Does-Plan-Usage-Tell-Us-About-Churn?)
 * [Are Customers in Certain Areas More Likely to Churn?](#Are-Customers-in-Certain-Areas-More-Likely-to-Churn?)
@@ -24,7 +24,7 @@
 * [Credits & References](#Credits-&-References)
 
 
-## Overview
+## Project Overview
 
 SyriaTel Communications, a leading telecommunications company, faces a significant challenge: customer churn. Customer churn occurs when a customer discontinues their service, which is costly due to the loss of recurring revenue and the expense of acquiring new customers. This project aims to address this problem by predicting which customers are likely to churn, allowing SyriaTel to implement targeted retention strategies.
 
@@ -42,7 +42,7 @@ The dataset used in this project is the "Churn in Telecoms" dataset, which consi
 
 # Exploratory Data Analysis (EDA)
 
-## Is calling customer service a sign of customer unhappiness/potential churn?
+## Is Calling Customer Service a Sign of Potential Churn?
 
 **Findings**
 
@@ -75,7 +75,7 @@ It is also interesting to note that the percentage of customers who churned was 
 Consider adjusting the rates for international calls to provide better value to customers with an international plan, potentially reducing their likelihood of churning.
 
 
-## Are customers in certain areas more likely to churn?
+## Are Customers in Certain Areas More Likely to Churn?
 
 **Findings**
 
@@ -113,7 +113,9 @@ True Negative Benefit (TN): $0 (no action needed)
 
 ![cb_analysis](https://github.com/JimalShafi/SyriaTelCustomerChurn/blob/main/ValidationMAIN.png?raw=true)
 
-- Conclusion: The expected value from this strategy is $0.52 per customer per month. While this may seem small, it scales significantly across millions of customers, making it a financially viable strategy.
+- Conclusion: The cost-benefit analysis reveals that the current strategy would result in a financial loss of $1.39 per customer per month. This negative expected value highlights a potential misalignment between the model's predictions and the customer retention strategy. While retaining customers who are falsely predicted to leave may not be inherently problematic, the overall financial impact indicates that adjustments are necessary.
+
+To capitalize on the model's predictive strengths, it may be beneficial to revisit the retention strategy or refine the cost-benefit model to ensure it accurately reflects the business's objectives. With these adjustments, the model could contribute positively to the company’s long-term financial success.
  The good news here is that with this model predicting churn, we are not LOSING money! We can see the breakdown of each cost and benefit multiplied by the number of TP, TN, FP, FNs on the confusion matrix above. 
 
 
@@ -140,7 +142,9 @@ The close recall scores indicate that the model is slightly overfitted but still
 
 ## Model Conclusion
 
-In conclusion, the Gradient Boosting Classifier provides a strong predictive model for SyriaTel’s churn prediction needs. With an expected value of $0.52 per customer per month, this model, when coupled with an appropriate retention strategy, offers a significant opportunity for cost savings and revenue generation.
+In conclusion, while the Gradient Boosting Classifier provides a robust predictive model for SyriaTel’s churn prediction needs, the cost-benefit analysis reveals that the current strategy would result in a financial loss of $1.39 per customer per month. This negative expected value highlights a potential misalignment between the model's predictions and the customer retention strategy. While retaining customers who are falsely predicted to leave may not be inherently problematic, the overall financial impact indicates that adjustments are necessary.
+
+To capitalize on the model's predictive strengths, it may be beneficial to revisit the retention strategy or refine the cost-benefit model to ensure it accurately reflects the business's objectives. With these adjustments, the model could contribute positively to the company’s long-term financial success.
 
 
 # Future Work
@@ -193,7 +197,8 @@ You can install these dependencies using the following command:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
-# Credits & References
+## Credits & References
+
 This project was developed by Akoko Jim Alex. The code is based on the following resources:
 Dataset: Churn in Telecoms Dataset from Kaggle.
 Libraries: Pandas, NumPy, Matplotlib, [Seaborn](https://seaborn.pydata
